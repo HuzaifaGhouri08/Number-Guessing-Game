@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Gussing Game</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="container">
+      <section id="section1">
+        <h1 id="st">NUMBER GUESSING GAME</h1>
+        <h3>
+          UNLESS YOU ARE GOOD AT GUESSING, IT IS NOT MUCH USE BEING A DETECTIVE
+        </h3>
+        <button onclick="generate()" id="btn1">Generate Number</button>
+        <h4><span>Coded By</span>
+          <a href="https://github.com/huzaifaghouri08/" target="_blank"
+            >Huzaifa Ghouri</a>
+        </h4>
+      </section>
+
+      <section id="section2">
+        <h1 id="heading1">Guess The Number Between 1 to 50</h1>
+
+        <img
+          src="https://www.icegif.com/wp-content/uploads/2022/09/icegif-655.gif"
+          id="think"
+        />
+        <h2 id="heading2">Enter Number Below</h2>
+        <input type="number" id="user" min="1" max="50" /><br />
+        <button id="btn2">Guess</button>
+      </section>
+
+      <section id="section3">
+        <img
+          src="https://media3.giphy.com/media/Gj3gfsSGGGdathUeEg/giphy.gif?cid=6c09b9520iwuv1hjves60v1pevqca15k145v8vkfeth8j9pa&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"
+          id="rolling"
+        />
+        <h2 id="heading3">Generating Numbers...</h2>
+      </section>
+    </div>
+  </body>
+  <script src="index.js" ></script>
+</html>
